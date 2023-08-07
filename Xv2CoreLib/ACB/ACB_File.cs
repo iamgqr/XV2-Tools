@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xv2CoreLib.UTF;
@@ -6023,6 +6023,9 @@ namespace Xv2CoreLib.ACB
         Unk57 = 0x0039, //2 params
         Unk59 = 0x003b, //2 params
 
+        UnkMai1 = 0x03e7, //4 params (播放定长？)
+        UnkMai2 = 0x0fa0, //0 params (循环终点？)
+        UnkMai3 = 0x006e, //1 params
     }
 
     public enum SequenceType : byte
